@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14.3px;
+}
+
+
+table {
+  font-family: 'Poppins', sans-serif; /* Ensures that the table uses Poppins font */
+}
+
+input-container:hover .icon {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+
+
+
+
+
