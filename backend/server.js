@@ -16,8 +16,8 @@ app.use(express.json());
 
 // CORS configuration to allow specific domains
 app.use(cors({
-    credentials: true,
-    origin: process.env.ALLOWED_ORIGIN || '*', // Default to '*' if ALLOWED_ORIGIN is not set
+    // credentials: true,
+    // origin: process.env.ALLOWED_ORIGIN || '*', // Default to '*' if ALLOWED_ORIGIN is not set
 }));
 
 // Connect to MongoDB
